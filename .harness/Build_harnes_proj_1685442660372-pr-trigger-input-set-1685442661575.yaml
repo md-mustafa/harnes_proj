@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnes_proj_1685442660372-pr-trigger-input-set
+  identifier: Build_harnes_proj_1685442660372prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harness_learn
+  pipeline:
+    identifier: Build_harnes_proj_1685442660372
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
